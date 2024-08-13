@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+   height: 3000px;
+    overflow-x: hidden;
+   }
+.bg-image{
+    width: 142.7vh;
+    height: 70vh;
+    
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.4);
+
+}
+.text{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    transition: 0.5s;
+}
+.navbar-scrolled{
+   background-color: #2e68c0; 
+   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
